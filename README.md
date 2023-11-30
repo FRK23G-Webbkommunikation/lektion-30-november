@@ -14,3 +14,9 @@ Ta din kod eller mitt kodexempel i denna mapp (`swing-notes`) och istället för
 * Ta bort en anteckning 
 
 Anteckningarna ska kunna kopplas till ett användarnamn.
+
+Alla `fetch` ska alltså bytas ut mot `addDoc, getDocs, updateDoc, deleteDoc` respektive.
+
+För att ta bort något så använd `deleteDoc(doc(db, 'highscore', documentId))`, fungerar på samma sätt som `updateDoc` med skillnaden att du inte 
+
+Tips! Vill du få ut dagens datum för att använda till `createdAt` så använd denna kod rad: `new Date().toLocaleDateString()`.
