@@ -6,7 +6,7 @@ Baserat på kodexemplet i `rock-paper-scissors` så lägg till funktionalitet s�
 
 **Swing notes med Firebase (tills tisdag)**
 
-Ta din kod eller mitt kodexempel i denna mapp (`swing-notes`) och istället för att använda API:et med fetch så skapa en firebase databas och modifiera koden så du använder firebase istället och spara anteckningar där. Följande funktionalitet ska finnas med:
+Ta din kod eller mitt kodexempel i denna mapp (`swing-notes`) och istället för att använda API:et med fetch så skapa en firebase databas och modifiera koden så du använder firebase istället och sparar anteckningar där. Följande funktionalitet ska finnas med:
 
 * Hämta anteckningar
 * Skapa nya anteckning
