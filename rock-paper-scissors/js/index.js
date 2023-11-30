@@ -69,7 +69,7 @@ getHighscore();
 
 async function checkIfUsernameExists() {
     // Här bygger vi upp en fråga till vår databas, först bestämmer vi i vilken collection vi vill söka i collection(db, 'highscore')
-    // Sen vad vi ska söka efter och detta fall efter ett specifikt användarnamn where('username', '==', stats.username);
+    // Sen vad vi ska söka efter och detta fall efter ett specifikt användarnamn where('username', '==', username);
     // Till sist utför vi frågan mot databasen await getDocs(usernameQuery);
 
     const username = document.querySelector('#username').value;
